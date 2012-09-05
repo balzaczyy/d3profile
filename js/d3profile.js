@@ -15,9 +15,9 @@
           }
         });
         // display hero data
-        $this.append('<span>Hero: </span>').append('<span>' + hero.name + '</span><br>')
-          .append('<span>Level: </span>').append('<span>' + hero.level + '</span><br>')
-          .append('<span>Class: </span>').append('<span>' + hero.class + '</span>');
+        $this.append('<span>Hero: </span><span>' + hero.name + '</span><br>'
+          + '<span>Level: </span><span>' + hero.level + '</span><br>'
+          + '<span>Class: </span><span>' + hero.class + '</span>');
       });
     });
   };
